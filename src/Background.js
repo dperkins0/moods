@@ -19,6 +19,14 @@ const Background = () => {
           font-family: 'Sorts Mill Gaudy', serif;
           overflow-x: hidden;
         }
+        body {
+          height: 100%;
+          width: 100%;
+        }
+        #root {
+          height: 100%;
+          width: 100%;
+        }
       `}
     />
   )
