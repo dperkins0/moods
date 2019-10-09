@@ -9,7 +9,7 @@ const Background = () => {
       styles={css`
         ${emotionNormalize}
         html {
-          height: '100%';
+          height: 100%;
           background: linear-gradient(
               rgba(100, 100, 100, 0.05),
               rgba(100, 100, 100, 0.05)
