@@ -24,15 +24,6 @@ const App = () => {
   return (
     <PageContainer>
       <Background />
-      <LinkWrapper>
-        <MoodsLink
-          href="https://moods.shop"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          moods
-        </MoodsLink>
-      </LinkWrapper>
     </PageContainer>
   )
 }

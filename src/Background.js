@@ -10,12 +10,12 @@ const Background = () => {
         ${emotionNormalize}
         html {
           height: 100%;
-          background: linear-gradient(
-              rgba(100, 100, 100, 0.05),
-              rgba(100, 100, 100, 0.05)
-            ),
-            url(${BladeRunner}) no-repeat center center fixed;
+          width: 100%;
+          background: url(${BladeRunner});
+          background-clip: border-box;
+          background-repeat: no-repeat;
           background-size: cover;
+          background-position: center;
           font-family: 'Sorts Mill Gaudy', serif;
           overflow-x: hidden;
         }
